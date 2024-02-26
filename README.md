@@ -17,6 +17,6 @@ Results: Findings revealed little to no associations between the general factor 
 
 - The code on this repository was run using Python 3.10.8 and on the HPC Cluster ROSA, located at the University of Oldenburg (Germany) and funded by the DFG through its Major Research Instrumentation Programme (INST 184/225-1 FUGG) and the Ministry of Science and Culture (MWK) of the Lower Saxony State.
 
-**You can refer to the [Workflow.md] file to get a detailed explanation of how the code works and how it was run in the HPC cluster.**
+**You can refer to the [Workflow.md] file to get an understanding of how the code is structured.**
 
 
