@@ -8,7 +8,7 @@ Methods: Whole-brain resting-state functional magnetic resonance imaging (fMRI) 
 
 Results: Findings revealed little to no associations between the general factor of intelligence ('g') and small-world brain network topology across the 72 distinct analytical pipelines. The projection of relationships in lower-dimensional space exhibited minimal variability between pipelines, challenging previous positive findings.
 
-# **About the code**
+# **About**
 - [MultiverseCode.py]: This Python file contains all the functions that were created for each choice in the multiverse. This code runs for one subject because looping over all subjects for each analytical choice was more confusing in terms of data management and computationally expensive. It was easier to create it for one subject and run it parallelly for 90 subjects in the high-performance cluster ROSA.
   
 - [MultiverseCode.job]: This is a bash script created to run the Python file as a job in the HPC environment. It can be used to set various parameters according to the user's choice, for instance, the total amount of time the code should be allowed to run or the number of jobs that can run in parallel.
