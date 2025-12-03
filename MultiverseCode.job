@@ -10,7 +10,7 @@
 #SBATCH--output=scripts.%A.%a.out  
 #SBATCH--error=scripts.%A.%a.error
 #SBATCH--mail-type=TIME_LIMIT_50,END
-#SBATCH--mail-user=user_email@uni-oldenburg.de
+#SBATCH--mail-user=<user_email>@uni-oldenburg.de
 #SBATCH--array=1-900%90
 
 python /dss/work/<user_id>/scripts/onesubjecttest2.py $SLURM_ARRAY_TASK_ID
